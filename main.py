@@ -27,13 +27,13 @@ def read_root():
 # Después guarda el archivo y prueba /docs.
 # ==================================================
 
-# @app.get("/products/{product_id}")
-# def get_product(product_id: int):
-#     """Return the requested product identifier."""
-#     return {
-#         "product_id": product_id,
-#         "message": "You requested a product",
-#     }
+@app.get("/products/{product_id}")
+def get_product(product_id: int):
+     """Return the requested product identifier."""
+     return {
+        "product_id": product_id,
+        "message": "You requested a product",
+     }
 
 
 # ==================================================
@@ -43,14 +43,14 @@ def read_root():
 # después de completar el paso 2.
 # ==================================================
 
-# @app.get("/products/{product_id}/search")
-# def search_product(
-#     product_id: int,
-#     query: str | None = None
-# ):
-#     """Receive an optional search query."""
-#     return {
-#         "product_id": product_id,
-#         "query": query,
-#         "message": "Search received",
-#     }
+@app.get("/products/{product_id}/search")
+def search_product(
+     product_id: int,
+     query: str | None = None
+ ):
+     """Receive an optional search query."""
+     return {
+         "product_id": product_id,
+         "query": query,
+         "message": "Search received",
+     }
