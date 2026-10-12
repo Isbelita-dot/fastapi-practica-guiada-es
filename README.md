@@ -22,11 +22,9 @@ Al finalizar la práctica podrás:
 Copia la URL del repositorio de GitHub y ejecuta:
 
 ```bash
-git clone URL_DE_TU_REPOSITORIO
+git https://github.com/Isbelita-dot/fastapi-practica-guiada-es.git
 cd fastapi-practica-guiada-es
 ```
-
-Sustituye `URL_DE_TU_REPOSITORIO` por la URL real del repositorio.
 
 ## 2. Crear un entorno virtual
 
