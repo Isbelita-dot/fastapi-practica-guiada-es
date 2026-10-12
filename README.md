@@ -22,7 +22,7 @@ Al finalizar la práctica podrás:
 Copia la URL del repositorio de GitHub y ejecuta:
 
 ```bash
-git https://github.com/Isbelita-dot/fastapi-practica-guiada-es.git
+git clone https://github.com/Isbelita-dot/fastapi-practica-guiada-es.git
 cd fastapi-practica-guiada-es
 ```
 
